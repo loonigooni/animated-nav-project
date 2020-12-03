@@ -102,9 +102,9 @@ main {
 
 .logo {
     display: flex;
-    align-items: center;
+    align-items: right;
     height: 5rem;
-    color: #ff9f9c;
+    color: #f09a9a;
     transition: var(--transition-speed);
 }
 
@@ -115,7 +115,7 @@ main {
     transition: transform var(--transition-speed);
 }
 .navbar:hover .logo svg {
-    transform: rotate(90deg);
+    transform: translateX(400%) rotate(180deg);
     
 }
 
